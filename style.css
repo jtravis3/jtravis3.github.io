@@ -1,0 +1,26 @@
+body{
+  font-family: 'Trebuchet MS';
+  font-size: 22px;
+  color: black;
+  background-color: LightSteelBlue;
+  opacity: 0.9;
+}
+.header{
+  display: flex;
+  position:fixed;
+  width: 100%;
+  height:69px;
+  z-index: 1;
+  background-color: Gray;
+  padding:0px 0px 0px 0px;
+}
+.top-links{
+  display: flex;
+  position: absolute;
+  left: 0px;
+  align-self: center;
+
+}
+.Welcome, .Bio, .Interests {
+  padding: 15px;
+}
