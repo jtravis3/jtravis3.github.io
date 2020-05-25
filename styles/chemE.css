@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: E0D2C3;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: 9DCBBA;
+  text-align: center;
+  font-size: 1.1em;
+  border-bottom: 20px;
+}
+
+nav li{
+  display: inline;
+  padding:0 2%;
+}
+nav li:hover{
+
+}
+
+nav a{
+  display:inline-block;
+  text-decoration: none;
+  padding: .5em;
+  color: 444545;
+}
+.General {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.General img{
+  flex-grow: 1;
+  max-width: 30%;
+  margin: 5% 5%;
+}
+.General ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.General li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
+.Reactor {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(117, 185, 190, 0.3);
+}
+.Reactor img{
+  flex-grow: 1;
+  max-height: 25em;
+  margin: 5% 10%;
+}
+.Reactor ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.Reactor li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
+.Fin {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Fin img{
+  flex-grow: 1;
+  max-height: 25em;
+  margin: 5% 10%;
+}
+.Fin ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.Fin li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
+.GC {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background:  rgba(117, 185, 190, 0.3);
+}
+.GC img{
+  flex-grow: 1;
+  max-width: 40%;
+  margin: 5% 10%;
+}
+.GC ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.GC li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
+.Diabetes {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Diabetes img{
+  flex-grow: 1;
+  max-width: 40%;
+  margin: 5% 10%;
+}
+.Diabetes ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.Diabetes li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}

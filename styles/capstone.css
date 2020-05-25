@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: E0D2C3;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: 9DCBBA;
+  text-align: center;
+  font-size: 1.1em;
+  border-bottom: 20px;
+}
+
+nav li{
+  display: inline;
+  padding:0 2%;
+}
+nav li:hover{
+
+}
+
+nav a{
+  display:inline-block;
+  text-decoration: none;
+  padding: .5em;
+  color: 444545;
+}
+
+.ProjectStatement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ProjectStatement img{
+  flex-grow: 1;
+  max-width: 30%;
+  margin: 5% 5%;
+}
+.Testing {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(117, 185, 190, 0.3);
+}
+.Testing img{
+  flex-grow: 1;
+  max-width: 30%;
+  margin: 5% 5%;
+}
+.CFD {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CFD img{
+  flex-grow: 1;
+  max-width: 30%;
+  margin: 5% 5%;
+}
+.TechTransfer {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(117, 185, 190, 0.3);
+}
+.TechTransfer img{
+  flex-grow: 1;
+  max-width: 30%;
+  margin: 5% 5%;
+}
+.Description {
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}

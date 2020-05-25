@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: E0D2C3;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: 9DCBBA;
+  text-align: center;
+  font-size: 1.1em;
+  border-bottom: 20px;
+}
+
+nav li{
+  display: inline;
+  padding:0 2%;
+}
+nav li:hover{
+
+}
+
+nav a{
+  display:inline-block;
+  text-decoration: none;
+  padding: .5em;
+  color: 444545;
+}
+
+.Motor-Controller {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Motor-Controller img{
+  flex-grow: 1;
+  max-width: 30%;
+  margin: 5% 5%;
+}
+.Motor-Controller ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.Motor-Controller li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
+.Tank {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(117, 185, 190, 0.3);
+}
+.Tank img{
+  flex-grow: 1;
+  max-height: 25em;
+  margin: 5% 10%;
+}
+.Tank ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.Tank li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
+.IMC {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.IMC img{
+  flex-grow: 1;
+  max-height: 25em;
+  margin: 5% 10%;
+}
+.IMC ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.IMC li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
+.pinch {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background:  rgba(117, 185, 190, 0.3);
+}
+.pinch img{
+  flex-grow: 1;
+  max-width: 40%;
+  margin: 5% 10%;
+}
+.pinch ul{
+  flex-grow: 2;
+  list-style-type: none;
+  margin: 0em 0em;
+}
+.pinch li{
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: 18;
+}
